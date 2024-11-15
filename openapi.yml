@@ -37,8 +37,8 @@ paths:
     post:
       tags:
         - pet
-      summary: Add a new pet to the store
-      description: Add a new pet to the store
+      summary: Add a new pet to the store.
+      description: Add a new pet to the store. This is a new description for the pet. Keyword:XYZ103N
       operationId: addPet
       responses:
         "200":
