@@ -1,0 +1,13 @@
+openapi: 3.1.0
+paths:
+  /api/server_time:
+    get:
+      summary: Get the time of the server
+      description: Get the time of the server
+      tags:
+        - PublicApi
+      security:
+        - none
+      responses:
+        200:
+          description: successful response
